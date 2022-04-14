@@ -11,6 +11,8 @@
   - Upload manually or repeat steps 2 and 3 if too large
 6. Undo changes to `index.js` 
 7. Delete API key from NFT.Storage account
+8. Upload `hidden.gif` separately
+  - Update `hidden.json` and upload
 
 ## Smart Contract
 1. Add `.env` file and update values
@@ -19,20 +21,26 @@
 4. Update `CollectionConfig.ts`
   - tokenName: 'Lorem Ipsum'
   - tokenSymbol: 'IPSUM'
+  - hiddenMetadataUri: 'ipfs://__CID___/hidden.json'
+  - Update `COLLECTION_URI_PREFIX` in `.env` file
 5. Update `whitelist.json` (at least 2)
-6. In separate terminal:
+6. Check commission fee in `withdraw` method
+7. In separate terminal:
   - Must use same node version as above
   - Run `npx truffle dashboard` then connect wallet
-7. Run `yarn deploy --network truffle`
-8. Update `CollectionConfig.ts` with contract address
-9. Run `yarn verify {contract-address} --network truffle`
-10. Run either of the following to open sales:
+8. Run `yarn deploy --network truffle`
+9. Update `CollectionConfig.ts` with contract address
+10. Run `yarn verify {contract-address} --network truffle`
+11. Run either of the following to open sales:
   - `yarn whitelist-open --network truffle`
   - `yarn presale-open --network truffle`
   - `yarn public-sale-open --network truffle`
-11. Mint first token to fully activate contract
-12. When ready to reveal, run `yarn reveal --network truffle`
-13. To widthdraw funds, perform at Etherscan
+12. Mint first token to fully activate contract
+13. When ready to reveal, run `yarn reveal --network truffle`
+14. To widthdraw funds, perform at Etherscan
+15. Run tests and check gas before deploying to `mainnet`
+  - `yarn test`
+  - `yarn test-gas`
 
 ## Minting Dapp
 1. Use Node latest for and run `yarn`
