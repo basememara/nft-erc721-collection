@@ -1,0 +1,67 @@
+{
+    "name": "Lorem Ipsum 9",
+    "description": "An interesting example of an NFT project.",
+    "image": "ipfs://bafybeidoqiqwsb53n5kowvgdbmue63tz4hb3xj4vi6kyjateulmuaxssre/9.jpg",
+    "external_url": "https://loremipsum.io/generator/?n=9&t=p",
+    "collection": {
+        "name": "Lorem Ipsum",
+        "family": "IPSUM"
+    },
+    "topic": "sample 9",
+    "attributes": [
+        {
+            "trait_type": "Dolor",
+            "value": "sit"
+        },
+        {
+            "trait_type": "Consectetur",
+            "value": "adipiscing"
+        },
+        {
+            "trait_type": "Eiusmod",
+            "value": "Yes"
+        },
+        {
+            "trait_type": "Incididunt",
+            "value": "No"
+        },
+        {
+            "trait_type": "Labore",
+            "value": "No"
+        },
+        {
+            "trait_type": "Words",
+            "value": 3,
+            "display_type": "boost_number"
+        },
+        {
+            "trait_type": "Position",
+            "value": 9,
+            "max_value": 321,
+            "display_type": "number"
+        },
+        {
+            "trait_type": "Excepteur",
+            "value": 2,
+            "max_value": 53,
+            "display_type": "number"
+        },
+        {
+            "trait_type": "Magna ",
+            "value": 3,
+            "max_value": 31,
+            "display_type": "number"
+        },
+        {
+            "trait_type": "Chronology",
+            "value": 8,
+            "max_value": 321
+        },
+        {
+            "trait_type": "Progress",
+            "value": 9,
+            "max_value": 5321
+        }
+    ]
+  }
+  
