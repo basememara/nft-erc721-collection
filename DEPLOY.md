@@ -9,9 +9,10 @@
 5. Package bulk metadata using this command:
   - `npx ipfs-car --pack ./sample-assets/metadata --wrapWithDirectory false --output ./my_metadata.car`
   - Upload manually or repeat steps 2 and 3 if too large
-6. Undo changes to `index.js` 
-7. Delete API key from NFT.Storage account
-8. Upload `hidden.gif` separately
+6. Update `COLLECTION_URI_PREFIX` in `.env` file
+7. Undo changes to `index.js` 
+8. Delete API key from NFT.Storage account
+9. Upload `hidden.gif` separately
   - Update `hidden.json` and upload
 
 ## Smart Contract
